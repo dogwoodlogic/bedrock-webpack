@@ -1,0 +1,32 @@
+{
+  "name": "bedrock-webpack",
+  "version": "0.1.0-0",
+  "description": "Bedrock webpack module",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-webpack"
+  },
+  "keywords": [
+    "bedrock",
+    "webpack"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-webpack/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-webpack",
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.4.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  }
+}

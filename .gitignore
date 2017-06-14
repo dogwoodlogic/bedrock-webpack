@@ -1,0 +1,8 @@
+*.py[co]
+*.sw[nop]
+*~
+.project
+.settings
+TAGS
+node_modules
+npm-debug.log
