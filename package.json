@@ -35,7 +35,7 @@
   "peerDependencies": {
     "bedrock": "^1.4.0",
     "bedrock-docs": "^2.0.1",
-    "bedrock-views": "digitalbazaar/bedrock-views#webpack"
+    "bedrock-views": "^5.1.0"
   },
   "directories": {
     "lib": "./lib"
