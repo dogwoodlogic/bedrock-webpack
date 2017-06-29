@@ -1,6 +1,6 @@
 {
   "name": "bedrock-webpack",
-  "version": "1.0.2",
+  "version": "1.0.3-0",
   "description": "Bedrock webpack module",
   "main": "./lib/index.js",
   "repository": {
