@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 1.0.2 - 2017-06-29
+
 ### Fixed
 - Event name typo.
 
