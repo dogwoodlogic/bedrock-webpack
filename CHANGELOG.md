@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Added
+- Add status and profile options.
+
 ## 1.0.2 - 2017-06-29
 
 ### Fixed
