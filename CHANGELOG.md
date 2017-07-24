@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Changed
+- Use child logger.
+
 ### Added
 - Add status and profile options.
 
