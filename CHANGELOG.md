@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 1.1.0 - 2017-07-24
+
 ### Changed
 - Use child logger.
 
