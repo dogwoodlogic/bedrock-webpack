@@ -1,5 +1,10 @@
 # bedrock-webpack ChangeLog
 
+## 1.1.1 - 2017-08-17
+
+### Fixed
+- Symlinked modules are properly processed by webpack.
+
 ## 1.1.0 - 2017-07-24
 
 ### Changed
