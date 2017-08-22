@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Fixed
+- Tighten babel excludes.
+
 ## 1.1.1 - 2017-08-17
 
 ### Fixed
