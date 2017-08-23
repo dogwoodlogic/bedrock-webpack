@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 1.1.3 - 2017-08-23
+
 ### Changed
 - Update dependencies.
 
