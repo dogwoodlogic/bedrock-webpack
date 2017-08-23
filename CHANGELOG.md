@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Changed
+- Update dependencies.
+
 ### Fixed
 - Too tight.
 
