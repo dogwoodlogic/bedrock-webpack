@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Fixed
+- Too tight.
+
 ## 1.1.2 - 2017-08-21
 
 ### Fixed
