@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 1.2.0 - 2017-11-14
+
 ### Added
 - Use `babel-plugin-transform-object-rest-spread`.
 
