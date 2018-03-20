@@ -1,5 +1,10 @@
 # bedrock-webpack ChangeLog
 
+## 1.2.2 - 2018-03-20
+
+### Fixed
+- Remove peer dependency for bedrock-docs.
+
 ## 1.2.1 - 2018-03-20
 
 ### Fixed
