@@ -36,7 +36,6 @@
   },
   "peerDependencies": {
     "bedrock": "^1.5.0",
-    "bedrock-docs": "^2.0.1",
     "bedrock-views": "^5.1.0"
   },
   "directories": {
