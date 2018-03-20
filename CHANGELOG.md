@@ -1,5 +1,11 @@
 # bedrock-webpack ChangeLog
 
+## 1.2.1 - 2018-03-20
+
+### Fixed
+- Remove unnecessary dependency on bedrock-docs.
+- Exclude common `localForage` lib from babel processing.
+
 ## 1.2.0 - 2017-11-14
 
 ### Added
