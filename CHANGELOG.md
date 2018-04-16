@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Added
+- `baseEntry` config property to override the default `babel-polyfill`.
+
 ## 1.2.2 - 2018-03-20
 
 ### Fixed
