@@ -2,6 +2,8 @@
 
 ### Added
 - `baseEntry` config property to override the default `babel-polyfill`.
+- Support Vue SFCs.
+- Support bundle chunking/dynamic imports.
 
 ## 1.2.2 - 2018-03-20
 
