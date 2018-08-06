@@ -1,9 +1,14 @@
 # bedrock-webpack ChangeLog
 
+## 2.0.0 - 2018-08-06
+
 ### Added
 - `baseEntry` config property to override the default `babel-polyfill`.
 - Support Vue SFCs.
 - Support bundle chunking/dynamic imports.
+
+### Changed
+- **BREAKING**: Use webpack 4.x.
 
 ## 1.2.2 - 2018-03-20
 
