@@ -1,6 +1,6 @@
 # bedrock-webpack ChangeLog
 
-## 2.1.0 - xxxxx
+## 2.1.0 - 2019-02-07
 
 ### Added
 - Support scss, sass, less, and stylus for css preprocessing.
