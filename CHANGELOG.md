@@ -1,5 +1,10 @@
 # bedrock-webpack ChangeLog
 
+## 2.1.1 - 2019-02-07
+
+### Fixed
+- Fix path resolution for CSS preprocessors.
+
 ## 2.1.0 - 2019-02-07
 
 ### Added
