@@ -3,6 +3,9 @@
 ### Added
 - eslint support.
 - `--webpack-mode <development|production>` to set webpack mode.
+- Initial "watch" support.
+  - Used to rebuild optimized output as source files change.
+  - To use add following to the command line: `--minify true --watch true`.
 
 ### Changed
 - Switched from async library to async/await.
