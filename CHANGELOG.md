@@ -1,7 +1,11 @@
 # bedrock-webpack ChangeLog
 
+### Fixed
+- `--webpack-uglify-beautify` was setting incorrect flag.
+
 ### Added
 - eslint support.
+- `--webpack-uglify-comments <true|false>` to omit all comments.
 - `--webpack-mode <development|production>` to set webpack mode.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
