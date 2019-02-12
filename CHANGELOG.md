@@ -3,6 +3,9 @@
 ### Added
 - eslint support.
 
+### Changed
+- Switched from async library to async/await.
+
 ## 2.1.1 - 2019-02-07
 
 ### Fixed
