@@ -1,5 +1,8 @@
 # bedrock-webpack ChangeLog
 
+### Added
+- eslint support.
+
 ## 2.1.1 - 2019-02-07
 
 ### Fixed
