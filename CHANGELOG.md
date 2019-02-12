@@ -2,6 +2,7 @@
 
 ### Added
 - eslint support.
+- `--webpack-mode <development|production>` to set webpack mode.
 
 ### Changed
 - Switched from async library to async/await.
