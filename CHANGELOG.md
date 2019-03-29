@@ -9,7 +9,11 @@
 - `--webpack-mode <development|production>` to set webpack mode.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
-  - To use add following to the command line: `--minify true --watch true`.
+  - Explicitly enabled with: `--minify true --watch true`.
+
+### Changed
+- Use "watch" support by default for development.
+- Uses webpack "development" mode for built files.
 
 ### Changed
 - Switched from async library to async/await.
