@@ -7,6 +7,8 @@
 - eslint support.
 - `--webpack-uglify-comments <true|false>` to omit all comments.
 - `--webpack-mode <development|production>` to set webpack mode.
+- `--webpack-stats <true|false>` to output stats.
+- `--webpack-log-config <true|false>` to output webpack config.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
