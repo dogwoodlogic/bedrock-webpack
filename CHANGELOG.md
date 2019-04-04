@@ -3,6 +3,11 @@
 ### Fixed
 - `--webpack-uglify-beautify` was setting incorrect flag.
 
+### Changed
+- Switched from async library to async/await.
+- Use "watch" support by default for development.
+- Uses webpack "development" mode for built files.
+
 ### Added
 - eslint support.
 - `--webpack-uglify-comments <true|false>` to omit all comments.
@@ -13,12 +18,8 @@
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
 
-### Changed
-- Use "watch" support by default for development.
-- Uses webpack "development" mode for built files.
-
-### Changed
-- Switched from async library to async/await.
+### Removed
+- **BREAKING**: AngularJS support.
 
 ## 2.1.1 - 2019-02-07
 
