@@ -24,29 +24,30 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-webpack",
   "dependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-angularjs-annotate": "^0.8.0",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.5.2",
-    "babel-runtime": "^6.23.0",
-    "css-loader": "^0.28.11",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-angularjs-annotate": "^0.10.0",
+    "css-loader": "^2.1.1",
     "file-size": "^1.0.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "stats-webpack-plugin": "^0.6.1",
+    "stats-webpack-plugin": "^0.7.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "vue-loader": "^14.2.2",
+    "vue-loader": "^14.2.4",
     "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.5.0",
-    "webpack-merge": "^4.1.0"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-merge": "^4.2.1"
   },
   "peerDependencies": {
     "bedrock": "^1.12.1",
@@ -59,7 +60,7 @@
     "node": ">=8"
   },
   "devDependencies": {
-    "eslint": "^5.13.0",
-    "eslint-config-digitalbazaar": "^1.5.0"
+    "eslint": "^5.16.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
   }
 }
