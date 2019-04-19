@@ -6,7 +6,12 @@
 ### Changed
 - Switched from async library to async/await.
 - Use "watch" support by default for development.
-- Uses webpack "development" mode for built files.
+- Use webpack "development" mode for built files.
+- By default disable Babel during developmemt and enable during production.
+- **BREAKING**: Remove `bedrock-webpack.baseEntry` option in favor of a
+  `bedrock-webpack.polyfillEntry` option. The default is to load a file that
+  imports `@babel/polyfill` and uses the `entry` builtin mode of
+  `@babel/preset-env`.
 
 ### Added
 - eslint support.
@@ -14,6 +19,8 @@
 - `--webpack-mode <development|production>` to set webpack mode.
 - `--webpack-stats <true|false>` to output stats.
 - `--webpack-log-config <true|false>` to output webpack config.
+- `--webpack-babel <true|false|mode>` to set babel mode.
+- `--webpack-babel-debug <true|false>` to set babel debug mode.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
