@@ -8,6 +8,7 @@
 - Use "watch" support by default for development.
 - Use webpack "development" mode for built files.
 - By default disable Babel during developmemt and enable during production.
+- Enable Babel cache.
 - **BREAKING**: Remove `bedrock-webpack.baseEntry` option in favor of a
   `bedrock-webpack.polyfillEntry` option. The default is to load a file that
   imports `@babel/polyfill` and uses the `entry` builtin mode of
