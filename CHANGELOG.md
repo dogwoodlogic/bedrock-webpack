@@ -29,6 +29,7 @@
 - `--webpack-log-config <true|false>` to output webpack config.
 - `--webpack-babel <true|false|mode>` to set babel mode.
 - `--webpack-babel-debug <true|false>` to set babel debug mode.
+- `--webpack-progress <true|false>` to show webpack progress.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
