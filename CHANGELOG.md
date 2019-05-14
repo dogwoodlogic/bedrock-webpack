@@ -35,6 +35,7 @@
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
   - Hot Module Replacement (HRM) support.
+- `clean-webpack-plugin` support.
 
 ### Removed
 - **BREAKING**: AngularJS support.
