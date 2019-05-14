@@ -36,6 +36,7 @@
   - Explicitly enabled with: `--minify true --watch true`.
   - Hot Module Replacement (HRM) support.
 - `clean-webpack-plugin` support.
+- CSS extraction support.
 
 ### Removed
 - **BREAKING**: AngularJS support.
