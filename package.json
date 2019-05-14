@@ -39,6 +39,7 @@
     "file-size": "^1.0.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.6.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "stats-webpack-plugin": "^0.7.0",
