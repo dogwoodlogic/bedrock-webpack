@@ -20,6 +20,7 @@
   mode. This is a limitation of the current webpack and will be removed once
   upstream supports symlink style development. This feature currently only
   scans the top-level of packages for symlinks.
+- Handle image and font files.
 
 ### Added
 - eslint support.
