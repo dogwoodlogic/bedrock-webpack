@@ -21,6 +21,9 @@
   upstream supports symlink style development. This feature currently only
   scans the top-level of packages for symlinks.
 - Handle image and font files.
+- Switched from UglifyJS to Terser for JS minification.
+- **BREAKING**: Changed around various minification option names. Check
+  `--help`.
 
 ### Added
 - eslint support.
