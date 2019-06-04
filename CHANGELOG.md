@@ -24,6 +24,7 @@
 - Switched from UglifyJS to Terser for JS minification.
 - **BREAKING**: Changed around various minification option names. Check
   `--help`.
+- Use core-js@3.
 
 ### Added
 - eslint support.
