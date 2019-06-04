@@ -15,12 +15,6 @@
   `@babel/preset-env`.
 - **BREAKING**: Require Node.js >= 10.10. (Used for modern fs.promises and
   newer fs APIs).
-- Add `--webpack-symlink-watch` option that, by default, will scan
-  `node_modules` for symlinks and add webpack aliases so they work in watch
-  mode. This is a limitation of the current webpack and will be removed once
-  upstream supports symlink style development. This feature currently only
-  scans the top-level of packages for symlinks.
-- Handle image and font files.
 - Switched from UglifyJS to Terser for JS minification.
 - **BREAKING**: Changed around various minification option names. Check
   `--help`.
@@ -35,6 +29,11 @@
 - `--webpack-babel <true|false|mode>` to set babel mode.
 - `--webpack-babel-debug <true|false>` to set babel debug mode.
 - `--webpack-progress <true|false>` to show webpack progress.
+- `--webpack-symlink-watch` option that, by default, will scan `node_modules`
+  for symlinks and add webpack aliases so they work in watch mode. This is a
+  limitation of the current webpack and will be removed once upstream
+  supports symlink style development. This feature currently only scans the
+  top-level of packages for symlinks.
 - Initial "watch" support.
   - Used to rebuild optimized output as source files change.
   - Explicitly enabled with: `--minify true --watch true`.
@@ -42,6 +41,7 @@
 - `clean-webpack-plugin` support.
 - CSS extraction support.
 - CSS optimization support.
+- Handle image and font files.
 
 ### Removed
 - **BREAKING**: AngularJS support.
