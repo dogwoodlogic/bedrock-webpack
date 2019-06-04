@@ -13,6 +13,13 @@
   `bedrock-webpack.polyfillEntry` option. The default is to load a file that
   imports `@babel/polyfill` and uses the `entry` builtin mode of
   `@babel/preset-env`.
+- **BREAKING**: Require Node.js >= 10.10. (Used for modern fs.promises and
+  newer fs APIs).
+- Add `--webpack-symlink-watch` option that, by default, will scan
+  `node_modules` for symlinks and add webpack aliases so they work in watch
+  mode. This is a limitation of the current webpack and will be removed once
+  upstream supports symlink style development. This feature currently only
+  scans the top-level of packages for symlinks.
 
 ### Added
 - eslint support.
