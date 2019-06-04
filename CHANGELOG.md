@@ -41,6 +41,7 @@
   - Hot Module Replacement (HRM) support.
 - `clean-webpack-plugin` support.
 - CSS extraction support.
+- CSS optimization support.
 
 ### Removed
 - **BREAKING**: AngularJS support.
