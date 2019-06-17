@@ -11,8 +11,8 @@
 - Enable Babel cache.
 - **BREAKING**: Remove `bedrock-webpack.baseEntry` option in favor of a
   `bedrock-webpack.polyfillEntry` option. The default is to load a file that
-  imports `@babel/polyfill` and uses the `entry` builtin mode of
-  `@babel/preset-env`.
+  imports `@core-js/stable` and `regenerator-runtime/runtime` and uses the
+  `entry` builtin mode of `@babel/preset-env`.
 - **BREAKING**: Require Node.js >= 10.10. (Used for modern fs.promises and
   newer fs APIs).
 - Switched from UglifyJS to Terser for JS minification.
