@@ -39,7 +39,8 @@
   - Explicitly enabled with: `--minify true --watch true`.
   - Hot Module Replacement (HRM) support.
 - `clean-webpack-plugin` support.
-- CSS extraction support.
+- CSS extraction support. Only enabled with CLI option due to a bug related
+  to static imports.
 - CSS optimization support.
 - Handle image and font files.
 
