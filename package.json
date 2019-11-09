@@ -2,6 +2,7 @@
   "name": "bedrock-webpack",
   "version": "2.1.2-0",
   "description": "Bedrock webpack module",
+  "license": "SEE LICENSE IN LICENSE.md",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint 'lib/*.js'"
