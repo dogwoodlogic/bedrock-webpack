@@ -1,6 +1,6 @@
 {
   "name": "bedrock-webpack",
-  "version": "3.0.1-0",
+  "version": "3.0.1",
   "description": "Bedrock webpack module",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "./lib/index.js",
