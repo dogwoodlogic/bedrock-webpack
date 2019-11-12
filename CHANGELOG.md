@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 3.0.1 - 2019-11-12
+
 ### Changed
 - Update dependencies.
 
