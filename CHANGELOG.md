@@ -9,6 +9,9 @@
   webpack config overrides. This is a specialized use case and will be
   addressed at a later time if needed.
 
+### Changed
+- Update dependencies.
+
 ## 3.0.2 - 2019-12-19
 
 ### Fixed
