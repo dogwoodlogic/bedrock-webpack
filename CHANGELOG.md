@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 3.1.0 - 2020-01-24
+
 ### Fixed
 - Adjust webpack path processing so the root file is found early and regular
   `node_modules` processing takes default priority over the root
