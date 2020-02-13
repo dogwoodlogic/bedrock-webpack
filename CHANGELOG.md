@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 3.2.0 - 2020-02-13
+
 ### Fixed
 - Add root `node_modules` path last to modules search path to fix issue with
   symlinked modules.
