@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 3.4.0 - 2020-03-24
+
 ### Added
 - Command line options `--webpack-define NAME=VALUE` to define frontend data.
   In general, the frontend should use a pattern like the following:
