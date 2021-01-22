@@ -1,5 +1,7 @@
 # bedrock-webpack ChangeLog
 
+## 3.5.0 - 2021-01-21
+
 ### Changed
 - Turn off vue-loader prettify mode during production builds. This will suppress
   errors when prettify was not installed in a `--no-optional` installation.
