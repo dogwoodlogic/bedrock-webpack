@@ -3,6 +3,7 @@
 *~
 .project
 .settings
+.vscode
 TAGS
 node_modules
 npm-debug.log
