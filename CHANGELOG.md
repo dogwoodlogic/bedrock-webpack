@@ -1,5 +1,11 @@
 # bedrock-webpack ChangeLog
 
+## 3.6.0 - 2021-01-29
+
+### Changed
+- Use `node-sass@5` which includes pre-built binaries for Alpine. This
+  elimnates the build step during deployment.
+
 ## 3.5.0 - 2021-01-21
 
 ### Changed
